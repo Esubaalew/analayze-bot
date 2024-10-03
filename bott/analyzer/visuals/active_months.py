@@ -4,7 +4,7 @@ from matplotlib import cm
 import matplotlib.pyplot as plt
 
 import numpy as np
-from analyzer.tools import (
+from bott.analyzer.tools import (
     get_most_active_months,
     get_most_active_months_all_time,
     get_most_active_months_by_year,

@@ -3,7 +3,7 @@ import uuid
 
 from matplotlib import pyplot as plt
 
-from analyzer.tools import get_most_active_weekdays, chat_info
+from bott.analyzer.tools import get_most_active_weekdays, chat_info
 
 
 def visualize_most_active_weekdays_bar(data: dict):

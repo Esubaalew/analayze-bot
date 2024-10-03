@@ -3,7 +3,7 @@ import uuid
 from matplotlib import pyplot as plt
 import seaborn as sns
 
-from analyzer.tools import get_most_common_words, chat_info
+from bott.analyzer.tools import get_most_common_words, chat_info
 
 
 def visualize_most_common_words(data: dict, top_n: int = 10):

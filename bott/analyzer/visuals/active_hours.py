@@ -1,7 +1,7 @@
 import uuid
 from datetime import datetime, timedelta
 from matplotlib import pyplot as plt
-from analyzer.tools import get_most_active_hours, chat_info
+from bott.analyzer.tools import get_most_active_hours, chat_info
 
 
 def visualize_bar_hours(data: dict):
